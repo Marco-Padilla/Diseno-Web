@@ -1,0 +1,23 @@
+/* Extra Small devices */
+
+@media (max-width: 576px) {
+    body {
+        background-color: #78e0e5;
+    }
+}
+
+/* Small devices */
+
+@media (min-width: 576px) {
+    body {
+        background-color: #bfeb2b;
+    }
+}
+
+/* Small devices */
+
+@media (min-width: 576px) {
+    body {
+        background-color: #bfeb2b;
+    }
+}
