@@ -1,0 +1,175 @@
+/*********************  MENU NAV ******************************/
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    font-family: 'Lucida Sans';
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Lucida Sans';
+    color: #000;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #1a3eac;
+    background-color: #2081d8;
+    transition: all 1s solid;
+}
+
+.optmenu:active {
+    background-color: #1a3eac;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #d6dbe3;
+    border: 3px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #d6dbe3;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.fondo1 {
+    background-color: #dbe9ed;
+    box-shadow: 5px 5px 8px #2081d8;
+}
+
+.fondo1 img {
+    width: 150px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../img/waiting.png');
+    background-color: #928372;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.retouno  {
+    margin-top: 13%;
+    padding-left: 10%;
+}
+
+.row img {
+    width: 90%;
+}
+
+.row button {
+    color: #fff;
+    background-color: #000;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.retodos  {
+    margin-top: 13%;
+}
+
+i{
+    color: #000;
+    font-size: 50px;
+}
+
+.oferta {
+    margin-top: 13%;
+    margin-bottom: 5%;
+}
+
+.oferta a {
+    border: red 6px solid;
+    background-color: red;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.iconos {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.colores {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.banner1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../img/playa.jpg');
+    background-color: #928372;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.fotos {
+    margin-top: 15%;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.interfaz {
+    display: flex;
+    align-items: center;
+    
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../img/naked-grill.jpg');
+    margin-top: 12%;
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 1rem;
+    }
+    .logo img {
+        /*display: block !important;
+        margin:0 auto !important; */
+        margin-left: 50px;
+    }
+    .navbar-toggler {
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 150px;
+    }
+    img {
+        width: 50%;
+    }
+    p {
+        font-size: 1.1rem !important;
+    }
+    .bannerparallax {
+        height: calc(100vh);
+    }
+}
