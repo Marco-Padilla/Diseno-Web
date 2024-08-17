@@ -1,0 +1,83 @@
+body .navbar-toggler {
+    background-color: #d6dbe3;
+    border: 3px solid #fff;
+  }
+  
+  body .navbar-toggler:hover {
+    background-color: #d6dbe3;
+  }
+  
+  body .custom-toggler.navbar-toggler {
+    border-color: #fff;
+  }
+  
+  body custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  body .custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  @media (max-width: 360px) {
+    html {
+        font-size: 1rem;
+    }
+    html img {
+        height: 100px;
+        width: 100px;
+    }
+
+    html .barra {
+        height: 100px;
+        width: 100%;
+        background-color: #b5b3d6;
+        display: flex;
+        z-index: 3;
+    }
+
+    html .barra:hover {
+        z-index: 3;
+        display: block;
+        height: 250px;
+        width: 100%;
+        background-color: #b5b3d6;
+    }
+
+    html .banneruno {
+        background-position: center;
+        background: #fbfbfb;
+        background: -webkit-linear-gradient(0deg, #fbfbfb 0%, #a1a1a1 100%);
+        background: linear-gradient(0deg, #fbfbfb 0%, #a1a1a1 100%);
+        background-blend-mode: multiply;
+        width: 100%;
+    }
+
+    html .banneruno h1 {
+        z-index: 1;
+        padding-top: 30%;
+        display: flex;
+        font-size: 4rem;
+    }
+
+    html #flecha {
+        width: 100px;
+    }
+
+    html .presentacion  {
+        display: block;
+    }
+
+    html .presentacion h1 {
+        padding-top: 10%;
+    }
+
+    html .presentacion img {
+        display: flex;
+        padding-top: 50%;
+        height: 50%;
+        width: 100%;
+        margin-bottom: 50%;
+    }
+
+  }

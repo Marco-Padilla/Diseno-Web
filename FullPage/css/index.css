@@ -1,0 +1,489 @@
+html body {
+  background: #000000;
+}
+
+/*Barra de Navegador*/
+html .barra {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+html #barra {
+  display: flex;
+  position: fixed;
+  height: 71px;
+  width: 100%;
+  opacity: 80%;
+  z-index: 3;
+}
+
+/*Edicion tipografia barra*/
+html .navbar a {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+html .navbar a:hover {
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+html .navbar i {
+  font-size: 1rem;
+}
+
+.navbar ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+#menu-products {
+  margin-top: 8px;
+  padding-left: 2px;
+}
+
+/*Sub-menu ul*/
+#dropdown-products {
+  display: none;
+}
+
+/*Sub-menu li*/
+#menu-products:hover #dropdown-products {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  padding-left: 0;
+}
+
+#menu-products:hover #dropdown-products a {
+  padding: 1rem;
+  text-align: center;
+}
+
+/*Fin Barra de Navegador*/
+/*Banner de Inicio*/
+/*Banner parallax*/
+html .banneruno {
+  background-size: cover;
+  /*control altura del banner*/
+  height: 100vh;
+  background-position: center;
+  background-image: url("../img/BannerUno.png");
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+/*h1*/
+body #logoinicio {
+  margin-top: 15%;
+  color: #fff;
+}
+
+/*Flecha siguiente seccion*/
+body #flecha {
+  margin-top: 15%;
+  width: 4%;
+}
+
+/* Fin Banner de Inicio*/
+/* Cards*/
+/* clases internas de la libreria IMAGEHOVER, cambiamos el color de fondo al pasar el cursor  */
+[class^=imghvr-reveal-]:before,
+[class*=" imghvr-reveal-"]:before {
+  background-color: #b5b3d6;
+}
+
+[class^=imghvr-],
+[class*=" imghvr-"] {
+  background-color: #7d7d96;
+  border-radius: 2%;
+  margin-top: 8%;
+}
+
+[class^=imghvr-] figcaption {
+  background-color: #b5b3d6;
+}
+
+[class^=imghvr-] a {
+  position: initial;
+}
+
+html #cards {
+  height: 80px;
+}
+
+html #cards1 {
+  height: 80px;
+}
+
+html .cards {
+  z-index: 2;
+}
+
+html .cards img {
+  width: 280px;
+  height: 200px;
+  border-radius: 2%;
+}
+
+html .cards figcaption a h3 {
+  margin-top: 25%;
+  font-size: 2rem;
+}
+
+html .cards figcaption a {
+  outline: none;
+  text-decoration: none;
+}
+
+html .cards figcaption h3:hover {
+  color: #000000;
+}
+
+/* End Cards*/
+/* Presentacion */
+html .bannerdos {
+  background-attachment: fixed;
+  background-size: cover;
+  /*control altura del banner*/
+  height: 50vh;
+  background-position: center;
+  background: #fbfbfb;
+  background: linear-gradient(0deg, #fbfbfb 0%, #a1a1a1 100%);
+  background-blend-mode: multiply;
+}
+
+html #bannerdos {
+  height: 80px;
+}
+
+html .bannerdos h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+
+html .bannerdos p {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1rem;
+}
+
+html .bannerdos button {
+  margin-top: 2%;
+}
+
+html .bannerdos button a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+html #presentacion {
+  background-color: #000000;
+  height: 10px;
+}
+
+html .presentacion img {
+  width: 80%;
+  height: 260px;
+  border-radius: 3%;
+  align-items: center;
+  margin-top: 15%;
+}
+
+html .presentacion h1 {
+  margin-top: 20%;
+  text-align: center;
+}
+
+html .presentacion p {
+  margin-top: 5%;
+  text-align: center;
+}
+
+html .presentacion {
+  overflow: hidden;
+}
+
+html .presentacion img:hover {
+  transform: scale(1.1);
+}
+
+html .presentacion {
+  background-attachment: fixed;
+  background-size: cover;
+  /*control altura del banner*/
+  height: 70vh;
+  background-position: center;
+  background: #fbfbfb;
+  background: linear-gradient(0deg, #fbfbfb 0%, #a1a1a1 100%);
+  background-blend-mode: multiply;
+  z-index: 1;
+}
+
+#clip1 {
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+          clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
+
+#clip2 {
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+          clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+}
+
+/* Final Presentacion */
+/* boda */
+html .boda1 {
+  height: 80vh;
+  background: #b5b3d6;
+}
+
+html .boda1 img {
+  border-radius: 3%;
+  width: 350px;
+  height: 350px;
+  margin-top: 30%;
+}
+
+.boda1 img:hover {
+  filter: blur(2px);
+  transition: all 0.3s ease-in-out;
+}
+
+html .boda1 h1 {
+  margin-top: 20%;
+}
+
+html .boda1 p {
+  margin-top: 5%;
+  font-size: 1rem;
+}
+
+html .boda2 {
+  height: 60vh;
+  z-index: 1;
+  background: #b5b3d6;
+}
+
+html .boda2 h1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+html .boda3 {
+  height: 100vh;
+}
+
+html .boda3 img {
+  height: 90vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Clase principal de cada columna*/
+.price-table {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #d6d6d6;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+/*El margin negativo -40px es para que haga el efecto que sube el cuadro*/
+/*el margin positivo 40px ds para que haga el efecto que baje el cuadro*/
+/*el color azul es el principal de la tabla de precios*/
+.price-table:hover {
+  background-color: #7d7d96 !important;
+  margin-top: -40px;
+  z-index: 2;
+  transform: scale(1);
+  transition: all 0.2s ease-in;
+  border: none;
+  /*buscar sombras generadas
+  https://getcssscan.com/css-box-shadow-examples*/
+  box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+/*clases de los textos titulos y numeros*/
+.titulos {
+  vertical-align: top;
+  font-size: 17px !important;
+  display: inline-block;
+  margin-top: 15px;
+  color: #222;
+}
+
+.numeros {
+  font-size: 70px;
+  font-weight: 300;
+  color: #333c4d;
+}
+
+/**Al pasar el mouse en la info cambia a color blanco los textos*/
+.price-table:hover * {
+  color: #fff;
+}
+
+/* Final boda */
+html .retrato {
+  height: 100vh;
+  background: #b5b3d6;
+}
+
+html #retrato {
+  height: 10vh;
+  background: #b5b3d6;
+}
+
+html .retrato img {
+  height: 250px;
+}
+
+header {
+  /*altura fija vertical*/
+  height: 100vh;
+}
+
+header h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  z-index: 2;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+html .mapa {
+  background: #b5b3d6;
+}
+
+html .zoom {
+  overflow: hidden;
+}
+
+html .zoom img {
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+          clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+html .zoom img:hover {
+  filter: blur(2px);
+  transition: all 0.3s ease-in-out;
+}
+
+html .formulario {
+  background-color: #b5b3d6;
+  height: 100vh;
+}
+
+html .formulario p {
+  font-size: 1rem;
+  margin-top: 1%;
+}
+
+html .formulario img {
+  border-radius: 3%;
+  width: 200px;
+  height: 250px;
+  margin-top: 10%;
+}
+
+.formulario img:hover {
+  filter: blur(2px);
+  transition: all 0.3s ease-in-out;
+}
+
+html .nosotros {
+  height: 80vh;
+  background-position: center;
+  background: #fbfbfb;
+  background: linear-gradient(0deg, #fbfbfb 0%, #a1a1a1 100%);
+  background-blend-mode: multiply;
+}
+
+html .nosotros h1 {
+  margin-top: 10%;
+}
+
+html .vidyoutube {
+  margin-top: 15%;
+}
+
+/*  footer */
+html footer {
+  font-size: 1rem;
+  outline: none;
+  text-align: none;
+  background-color: #000000;
+  margin-top: 2%;
+  height: 100%;
+  z-index: 10;
+}
+
+html footer a {
+  font-size: 1rem;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+html footer p {
+  font-size: 1rem;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+html footer a i {
+  padding: 1rem;
+  width: 100px;
+  outline: none;
+  text-align: none;
+  color: #fff;
+}
+
+/* Final footer *//*# sourceMappingURL=index.css.map */
